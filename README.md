@@ -6,5 +6,7 @@ comando (sim "cmd" precisa ser digitado no comando):
 expl:
   C:\Users\<seuUsuario>\Área de Trabalho>cmd /k initmousemover.bat
 
+vc pode minimizar a tela que o script continua rodando
+
 a cada dois minutos o mouse vai mover ipendindo o sleepmode
 Ctrl + C -> (S) Para parar o script
