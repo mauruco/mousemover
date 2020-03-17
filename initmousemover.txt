@@ -1,0 +1,8 @@
+:loop
+set /a _rand1=(%random%*100/32768)
+set /a _rand2=(%random%*100/32768)
+call mousemover.bat moveBy %_rand1%x%_rand2%
+timeout 120
+goto loop
+
+REM cmd /k initmousemover.bat
